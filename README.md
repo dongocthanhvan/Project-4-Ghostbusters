@@ -35,6 +35,7 @@ Hàm getBeliefDistribution(): Khởi tạo xác suất cho mỗi vị trí trong
 Hàm observe(): Tương tự hàm observe() của Question 1:
 Khởi tạo lại tập mẫu nếu như xác suất ở tất cả các vị trí đều bằng 0:
 
+
 if allPossible.totalCount() == 0:
      self.initializeUniformly(gameState)
                                                   
