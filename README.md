@@ -16,6 +16,7 @@ Xác suất mà ma xuất hiện ở vị trí tiếp sẽ bằng xác suất �
 Question 3:
 
 Tìm ra vị trí có khả năng xuất hiện nhất của mỗi ma và khoảng cách từ pacman đến những vị trí đó. Sau đó tìm ra vị trí của ma gần nhất và khoảng cách từ pacman đến đó. Cuối cùng chọn ra action tốt nhất:
+
     bestNewDistance = float('inf')
           bestAction = []
           for action in legal:
