@@ -31,6 +31,7 @@ Tìm ra vị trí có khả năng xuất hiện nhất của mỗi ma và khoả
           
 Question 4: 
 Khác Question 1 ở chỗ sử dụng tập mẫu để đưa ra suy diễn. Hàm getBeliefDistribution()để khởi tạo xác suất cho mỗi vị trí trong tập particles là bằng nhau và tổng bằng 1 (phân phối đều). Hàm observe() thì tương tự hàm observe() của Question 1. Chúng ta sẽ khởi tạo lại tập mẫu nếu như xác suất ở tất cả các vị trí đều bằng 0
+Question 5: Tương tự Question 2
 
 
 
