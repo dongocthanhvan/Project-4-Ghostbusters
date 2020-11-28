@@ -28,4 +28,13 @@ Tìm ra vị trí có khả năng xuất hiện nhất của mỗi ma và khoả
               elif newDistance == bestNewDistance:
                   bestAction.append(action)
           return random.choice(bestAction)
+          
+Question 4: 
+Khác Question 1 ở chỗ sử dụng tập mẫu để đưa ra suy diễn
+Hàm getBeliefDistribution(): Khởi tạo xác suất cho mỗi vị trí trong tập particles là bằng nhau và tổng bằng 1 (phân phối đều)
+Hàm observe(): Tương tự hàm observe() của Question 1:
+Khởi tạo lại tập mẫu nếu như xác suất ở tất cả các vị trí đều bằng 0:
+
+if allPossible.totalCount() == 0:
+    self.initializeUniformly(gameState)
                                                   
